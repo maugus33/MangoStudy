@@ -6,7 +6,33 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.ood.malissa.mangostudy.Activities.MainActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Rooms"
+        android:id="@+id/viewRoomsBtn"
+        android:textSize="18pt"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Classes"
+        android:id="@+id/viewClassesBtn"
+        android:textSize="18pt"
+        android:layout_below="@+id/viewRoomsBtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Register New Class"
+        android:id="@+id/registerClassBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="78dp"
+        android:layout_alignEnd="@+id/viewClassesBtn"
+        android:textSize="18pt"/>
 </RelativeLayout>
