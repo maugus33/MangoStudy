@@ -6,7 +6,24 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.ood.malissa.mangostudy.Activities.ViewClasses">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <TextView android:text="Select Class" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="14pt"
+        android:id="@+id/selClassLabel" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/classList"
+        android:layout_below="@+id/selClassLabel"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

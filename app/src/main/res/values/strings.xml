@@ -9,5 +9,5 @@
     <string name="title_activity_register_user">RegisterUser</string>
     <string name="title_activity_view_classes">ViewClasses</string>
     <string name="title_activity_create_group">CreateGroup</string>
-    <string name="title_activity_group_chat">GroupChat</string>
+    <string name="title_activity_group_chat">Messager</string>
 </resources>

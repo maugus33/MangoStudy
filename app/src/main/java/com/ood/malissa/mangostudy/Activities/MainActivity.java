@@ -5,7 +5,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.ibm.mobilefirstplatform.clientsdk.android.core.api.BMSClient;
 import com.ood.malissa.mangostudy.R;
+
+import java.net.MalformedURLException;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,6 +16,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+       /* try {
+            //initialize SDK with IBM Bluemix application ID and route
+            BMSClient.getInstance().initialize(this, "http://mango-study.mybluemix.net", "ec6f5695-c9cf-4725-a858-01f49c793dcf");
+        }
+        catch (MalformedURLException mue) {
+            //this.setStatus("Unable to parse Application Route URL\n Please verify you have entered your Application Route and Id correctly and rebuild the app", false);
+            //buttonText.setClickable(false);
+        }*/
     }
 
     @Override
