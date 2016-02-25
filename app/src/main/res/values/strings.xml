@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MangoStudy</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_view_rooms">ViewRooms</string>
+    <string name="title_activity_register_class">RegisterClass</string>
+    <string name="title_activity_register_user">RegisterUser</string>
+    <string name="title_activity_view_classes">ViewClasses</string>
+    <string name="title_activity_create_group">CreateGroup</string>
+    <string name="title_activity_group_chat">GroupChat</string>
+</resources>
